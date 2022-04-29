@@ -1,0 +1,6 @@
+local args = {
+    [1] = "TRAPSELL",
+    [2] = game:GetService("ReplicatedStorage").Spawners.TRAPSELL:FindFirstChild("Gas Pluto OG")
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))
