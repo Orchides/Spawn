@@ -1,0 +1,6 @@
+local args = {
+    [1] = "ADMIN",
+    [2] = game:GetService("ReplicatedStorage").Spawners.ADMIN:FindFirstChild("Draco 2.23")
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))

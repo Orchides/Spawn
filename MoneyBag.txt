@@ -1,0 +1,6 @@
+local args = {
+    [1] = "CUSTOM",
+    [2] = game:GetService("ReplicatedStorage").Spawners.CUSTOM.MoneyBag
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))

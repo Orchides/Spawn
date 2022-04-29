@@ -1,0 +1,6 @@
+local args = {
+    [1] = "POLICE",
+    [2] = game:GetService("ReplicatedStorage").Spawners.POLICE.Taser
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))

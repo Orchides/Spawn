@@ -1,0 +1,6 @@
+local args = {
+    [1] = "VIP",
+    [2] = game:GetService("ReplicatedStorage").Spawners.VIP.WhiteMCM
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))

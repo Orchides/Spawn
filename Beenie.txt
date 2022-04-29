@@ -1,0 +1,6 @@
+local args = {
+    [1] = "VIP",
+    [2] = game:GetService("ReplicatedStorage").Spawners.VIP.Beenie
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))

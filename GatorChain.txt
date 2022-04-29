@@ -1,0 +1,6 @@
+local args = {
+    [1] = "ADMIN",
+    [2] = game:GetService("ReplicatedStorage").Spawners.ADMIN.GatorChain
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))

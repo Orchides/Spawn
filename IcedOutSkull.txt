@@ -1,0 +1,6 @@
+local args = {
+    [1] = "ADMIN",
+    [2] = game:GetService("ReplicatedStorage").Spawners.ADMIN.IcedOutSkull
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))
