@@ -1,0 +1,6 @@
+local args = {
+    [1] = "MAX",
+    [2] = game:GetService("ReplicatedStorage").Spawners.MAX:FindFirstChild("FNX 45 w Laser Ext")
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))

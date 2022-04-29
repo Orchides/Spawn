@@ -1,0 +1,6 @@
+local args = {
+    [1] = "BEST",
+    [2] = game:GetService("ReplicatedStorage").Spawners.BEST:FindFirstChild("Tec9")
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))

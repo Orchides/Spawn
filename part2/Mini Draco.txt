@@ -1,0 +1,6 @@
+local args = {
+    [1] = "HEAVY",
+    [2] = game:GetService("ReplicatedStorage").Spawners.HEAVY:FindFirstChild("Mini Draco")
+}
+
+game:GetService("ReplicatedStorage").Remotes.SpawnerRE:FireServer(unpack(args))
